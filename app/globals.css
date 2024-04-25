@@ -31,3 +31,40 @@ body {
     text-wrap: balance;
   }
 }
+
+  /*  style  */
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-color:black ;
+   }
+   .form input {
+     padding: 10px;
+     margin: 20px;
+     border-radius: 10px;
+     width: 500px;
+     color: black !important;
+ 
+   }
+   .form label {
+     font-size: 30px;
+     font-family: lato;
+ 
+   }
+   .form button {
+     padding: 10px;
+     margin: 20px;
+     border: none;
+     border-radius: 10px;
+     background-color: #3C3C3C;
+     width: 500px;
+   }
+   .res p{
+     font-size: 40px;
+     font-family: lato;
+     margin: 20px;
+   }
